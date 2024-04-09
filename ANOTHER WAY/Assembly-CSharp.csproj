@@ -67,7 +67,7 @@
     <Compile Include="Assets\SCRIPT\PLAYER\PlayerMovement.cs" />
     <Compile Include="Assets\SCRIPT\ItemDescriptor.cs" />
     <Compile Include="Assets\Story\Speaker.cs" />
-    <Compile Include="Assets\Dialogue.cs" />
+    <Compile Include="Assets\CharacterDialogue.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
     <Compile Include="Assets\IMPORTASSETS\VICINI CASE\ReadMe\Scripts\ReadmeBE3.cs" />

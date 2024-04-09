@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a48b32c4d9c754a43970d25af7f011aa, type: 3}
   m_Name: Detective
   m_EditorClassIdentifier: 
-  speakerName: 
+  speakerName: Detective
   textColor: {r: 1, g: 1, b: 1, a: 0}

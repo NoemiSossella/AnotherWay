@@ -10,11 +10,12 @@ public class BottomBarController : MonoBehaviour
 
     private int sentenceIndex = -1;
     private StoryScene currentScene; 
-    private State state = State.COMPLETED;
+    private DialogueState state = DialogueState.COMPLETED;
 
-    private enum State
+    private enum DialogueState
     {
-        PLAYING, COMPLETED
+        PLAYING,
+        COMPLETED
     }
 
     public void PlayScene(StoryScene scene) 
@@ -23,35 +24,41 @@ public class BottomBarController : MonoBehaviour
         sentenceIndex = -1; 
         PlayNextSentence();
     }
+
     // Start is called before the first frame update
     public void PlayNextSentence()
     {
-        StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        sentenceIndex++;
+        var currentSentence = currentScene.sentences[sentenceIndex];
+        StartCoroutine(TypeText(currentSentence));
     }
 
     public bool IsCompleted()
     {
-        return state == State.COMPLETED;
+        return state == DialogueState.COMPLETED;
     }
 
     public bool IsLastSentence()
     {
         return sentenceIndex + 1 == currentScene.sentences.Count;
     }
-    private IEnumerator TypeText(string text)
+
+    private IEnumerator TypeText(Sentence sentence)
     {
         barText.text = "";
-        state = State.PLAYING;
+        state = DialogueState.PLAYING;
         int wordIndex = 0;
+        personNameText.text = sentence.speaker.speakerName;
 
-        while (state != State.COMPLETED)
+        while (state != DialogueState.COMPLETED)
         {
-            barText.text += text[wordIndex];
+            barText.text += sentence.text[wordIndex];
             yield return new WaitForSeconds(0.05f);
-            if(++wordIndex == text.Length) 
+
+            wordIndex++;
+            if(wordIndex == sentence.text.Length) 
             {
-                state = State.COMPLETED;
-                break;
+                state = DialogueState.COMPLETED;
             }
         }
     }
