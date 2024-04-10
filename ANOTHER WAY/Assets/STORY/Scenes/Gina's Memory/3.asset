@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0847a4a857d4e4393375434838a7b8, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: What were you doing and Where were you, on the night that (...) gone missing?
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: 'I was with my Husband at the Azzure Resturant '
+    speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
+  - text: 'Did you remember anything suspiciuts happened in that period of time? '
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: Not that i remember... Sorry, my memory is getting old
+    speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
+  - text: It's okey M'am. I understand
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: I remembered something... (...) and Milly fought a lot in that period
+    speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
+  - text: Thank you for your collaboration Ms Gina. Have a nice day
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: Your Welcome Officer
+    speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

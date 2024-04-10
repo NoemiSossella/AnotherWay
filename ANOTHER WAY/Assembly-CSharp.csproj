@@ -66,19 +66,22 @@
   <ItemGroup>
     <Compile Include="Assets\SCRIPT\PLAYER\PlayerMovement.cs" />
     <Compile Include="Assets\SCRIPT\ItemDescriptor.cs" />
-    <Compile Include="Assets\Story\Speaker.cs" />
     <Compile Include="Assets\CharacterDialogue.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\STORY\GameController.cs" />
+    <Compile Include="Assets\SCRIPT\CASA\CasaVittimaScene.cs" />
     <Compile Include="Assets\IMPORTASSETS\VICINI CASE\ReadMe\Scripts\ReadmeBE3.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
-    <Compile Include="Assets\Story\StoryScene.cs" />
-    <Compile Include="Assets\Story\BottomBarController.cs" />
+    <Compile Include="Assets\STORY\BottomBarController.cs" />
+    <Compile Include="Assets\SCRIPT\INVENTARIO\InventoryScript.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
     <Compile Include="Assets\SCRIPT\InteractionManager.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
     <Compile Include="Assets\SCRIPT\ItemInteractions.cs" />
-    <Compile Include="Assets\Story\GameController.cs" />
+    <Compile Include="Assets\STORY\Speaker.cs" />
+    <Compile Include="Assets\STORY\StoryScene.cs" />
+    <Compile Include="Assets\SceneLoaderCasa.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

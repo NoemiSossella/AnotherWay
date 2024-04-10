@@ -20,4 +20,4 @@ MonoBehaviour:
   - text: Yes, she was a student of mine.
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
   background: {fileID: 21300000, guid: d5c9364955305a143b05df2337a036a3, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 2d80ccf2a28a70f4082a5efb92c5ee7a, type: 2}
