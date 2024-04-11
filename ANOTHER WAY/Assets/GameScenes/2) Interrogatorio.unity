@@ -191,25 +191,6 @@ Transform:
   - {fileID: 920276486}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &378448874 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3608369407149817306, guid: b392ca42c2c501b49a6c697b1a0af97c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4797300415890486065}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &378448878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378448874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2995e49f19128ef4b9c01dda86b909d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: 3) CasaVittima
 --- !u!1 &382702907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1098,7 @@ GameObject:
   - component: {fileID: 899482235}
   - component: {fileID: 899482236}
   - component: {fileID: 899482234}
+  - component: {fileID: 899482237}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -1278,6 +1260,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &899482237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899482230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2995e49f19128ef4b9c01dda86b909d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: 3) Casa Vittima
 --- !u!1001 &919499652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2871,15 +2866,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2383249169128811199, guid: b392ca42c2c501b49a6c697b1a0af97c,
+    - target: {fileID: 3516038782616755676, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
-      propertyPath: m_Layer
-      value: 19
+      propertyPath: m_Size.x
+      value: 3.0457964
       objectReference: {fileID: 0}
     - target: {fileID: 3516038782616755676, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
+      propertyPath: m_Size.y
+      value: 2.2682774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516038782616755676, guid: b392ca42c2c501b49a6c697b1a0af97c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.32176405
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516038782616755676, guid: b392ca42c2c501b49a6c697b1a0af97c,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.97045577
       objectReference: {fileID: 0}
     - target: {fileID: 3608369407149817306, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
@@ -2888,38 +2893,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3608369407149817306, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
-      propertyPath: m_Layer
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 3608369407149817306, guid: b392ca42c2c501b49a6c697b1a0af97c,
-        type: 3}
       propertyPath: m_TagString
       value: CasaVittima
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609833210592760496, guid: b392ca42c2c501b49a6c697b1a0af97c,
-        type: 3}
-      propertyPath: m_Layer
-      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4773200924327433854, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.56
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 4773200924327433854, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.56
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 4773200924327433854, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.56
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 4773200924327433854, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.37
+      value: 3.26
       objectReference: {fileID: 0}
     - target: {fileID: 4773200924327433854, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}
@@ -3015,11 +3010,7 @@ PrefabInstance:
     - {fileID: 8172801211637997273, guid: b392ca42c2c501b49a6c697b1a0af97c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3608369407149817306, guid: b392ca42c2c501b49a6c697b1a0af97c,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 378448878}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b392ca42c2c501b49a6c697b1a0af97c, type: 3}
 --- !u!1001 &6815394207323606068
 PrefabInstance:

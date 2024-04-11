@@ -7,9 +7,10 @@ public class CasaVittimaScene : MonoBehaviour
 {
     public string sceneToLoad; // Nome della scena da caricare
 
-    void OnMouseDown()
+    private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.CompareTag("CasaVittima")) // Controlla se l'oggetto è CasaVittima
+        // Controlla se il player ha colliso con il trigger
+        if (other.CompareTag("Player"))
         {
             LoadScene();
         }
@@ -20,3 +21,6 @@ public class CasaVittimaScene : MonoBehaviour
         SceneManager.LoadScene(sceneToLoad); // Carica la scena specificata
     }
 }
+
+
+

@@ -33,9 +33,9 @@ public class CharacterDialogue : MonoBehaviour, IPointerClickHandler, IPointerEn
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("click on "+name);
-       if(eventData.button == PointerEventData.InputButton.Right)
+       if(eventData.button == PointerEventData.InputButton.Left)
        {
-        
+            
        }
     }
 
