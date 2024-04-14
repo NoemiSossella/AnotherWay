@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class BottomBarController : MonoBehaviour
 {
@@ -24,6 +25,10 @@ public class BottomBarController : MonoBehaviour
         sentenceIndex = -1; 
         PlayNextSentence();
     }
+    public void SetScene(StoryScene scene){
+        currentScene = scene;
+        sentenceIndex = -1; 
+    }
 
     // Start is called before the first frame update
     public void PlayNextSentence()
@@ -39,7 +44,7 @@ public class BottomBarController : MonoBehaviour
     }
 
     public bool IsLastSentence()
-    {
+     {
         return sentenceIndex + 1 == currentScene.sentences.Count;
     }
 
@@ -62,4 +67,5 @@ public class BottomBarController : MonoBehaviour
             }
         }
     }
+
 }

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0847a4a857d4e4393375434838a7b8, type: 3}
+  m_Name: 1_Luigi
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Goodmorning Mr Luigi, i'm Detective Ross
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: How can i help you Sir?
+    speaker: {fileID: 11400000, guid: 3a548b9df048af04bb0363b27cf5bc0f, type: 2}
+  - text: Did you knew (...)?
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: 'The girl of the last house? I do remember her parents... Wonderfull people. '
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: ccdf31feaea18574ab7c75524d876712, type: 2}

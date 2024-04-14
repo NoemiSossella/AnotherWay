@@ -373,7 +373,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &488539401
 RectTransform:
   m_ObjectHideFlags: 0
@@ -815,6 +815,8 @@ GameObject:
   - component: {fileID: 615238921}
   - component: {fileID: 615238923}
   - component: {fileID: 615238924}
+  - component: {fileID: 615238925}
+  - component: {fileID: 615238926}
   m_Layer: 0
   m_Name: Luigi
   m_TagString: Luigi
@@ -962,6 +964,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &615238925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615238920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2e4bc0df8a2c84468c8b24cdd031914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene: {fileID: 11400000, guid: 5df2aac0a0144094eb050f86ce1f9a51, type: 2}
+  bottomBar: {fileID: 1345400814}
+--- !u!114 &615238926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615238920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66bdabf71e5ea3b47b680ae7a15c3ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterCanvases: []
+  characterButtons: []
 --- !u!1 &687105267
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1808648363
 MonoBehaviour:
   m_ObjectHideFlags: 0

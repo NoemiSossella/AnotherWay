@@ -35,7 +35,15 @@ public class CharacterDialogue : MonoBehaviour, IPointerClickHandler, IPointerEn
         Debug.Log("click on "+name);
        if(eventData.button == PointerEventData.InputButton.Left)
        {
-            
+            GameController controller = GetComponent<GameController>();
+            if (controller != null)
+            {
+                controller.SetStoria();
+                if(controller.bottomBar != null){
+                    controller.bottomBar.transform.parent.gameObject.SetActive(true);
+                    controller.CanStart = true;
+                }
+            }
        }
     }
 

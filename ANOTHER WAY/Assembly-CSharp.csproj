@@ -72,6 +72,7 @@
     <Compile Include="Assets\SCRIPT\CASA\CasaVittimaScene.cs" />
     <Compile Include="Assets\IMPORTASSETS\VICINI CASE\ReadMe\Scripts\ReadmeBE3.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
+    <Compile Include="Assets\SCRIPT\INVENTARIO\Item.cs" />
     <Compile Include="Assets\STORY\BottomBarController.cs" />
     <Compile Include="Assets\SCRIPT\CharacterDialogue.cs" />
     <Compile Include="Assets\SCRIPT\INVENTARIO\InventoryScript.cs" />
