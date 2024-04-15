@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: 2_Luigi
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 0}
-  - text: 
-    speaker: {fileID: 0}
+  - text: Did you remember something of that night?
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: "As i already told the police back then, i was sleeping in my house when
+      my dog started barking so loudly that he woke me up. \n"
+    speaker: {fileID: 11400000, guid: 3a548b9df048af04bb0363b27cf5bc0f, type: 2}
+  - text: 'So, I went down the stairs to see what he was barking at and from the
+      windows I saw a man, more or less of medium height, dressed in black who was
+      running away from the girl''s house to escape in a white van.
+
+'
+    speaker: {fileID: 11400000, guid: 3a548b9df048af04bb0363b27cf5bc0f, type: 2}
   background: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 2a70f56d2aec6964a9fb2d361d11df3b, type: 2}

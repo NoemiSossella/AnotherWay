@@ -815,8 +815,8 @@ GameObject:
   - component: {fileID: 615238921}
   - component: {fileID: 615238923}
   - component: {fileID: 615238924}
-  - component: {fileID: 615238925}
   - component: {fileID: 615238926}
+  - component: {fileID: 615238925}
   m_Layer: 0
   m_Name: Luigi
   m_TagString: Luigi
@@ -990,7 +990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66bdabf71e5ea3b47b680ae7a15c3ec9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterCanvases: []
+  characterCanvases:
+  - {fileID: 1345400812}
   characterButtons: []
 --- !u!1 &687105267
 GameObject:
@@ -2049,6 +2050,8 @@ GameObject:
   - component: {fileID: 1639760105}
   - component: {fileID: 1639760107}
   - component: {fileID: 1639760108}
+  - component: {fileID: 1639760110}
+  - component: {fileID: 1639760109}
   m_Layer: 0
   m_Name: Alberto
   m_TagString: Alberto
@@ -2196,6 +2199,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1639760109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639760104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2e4bc0df8a2c84468c8b24cdd031914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene: {fileID: 11400000, guid: f87903c66ff81be49a41668d1e100a47, type: 2}
+  bottomBar: {fileID: 1345400814}
+--- !u!114 &1639760110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639760104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66bdabf71e5ea3b47b680ae7a15c3ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterCanvases:
+  - {fileID: 1345400812}
+  characterButtons: []
 --- !u!1 &1686175509
 GameObject:
   m_ObjectHideFlags: 0

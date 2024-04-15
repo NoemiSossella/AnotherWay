@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b0847a4a857d4e4393375434838a7b8, type: 3}
-  m_Name: 1_Gina
+  m_Name: 1_Alberto
   m_EditorClassIdentifier: 
   sentences:
-  - text: Goodmorning Officer. What can i do for you?
-    speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
-  - text: Goodmorning Ms Gina, i'm Detective Ross from (..) May i ask you some questiions?
-      Did you know (...)?
+  - text: Goodmorning Mr Alberto, i'm Detective Ross. May i ask you some questions?
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
-  background: {fileID: 21300000, guid: d5c9364955305a143b05df2337a036a3, type: 3}
-  nextScene: {fileID: 11400000, guid: 07a6b20a58be8604fbab3522a879c502, type: 2}
+  - text: AAAAAAAAA
+    speaker: {fileID: 11400000, guid: e529b9ad881b41940ba2ba2f6439d518, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

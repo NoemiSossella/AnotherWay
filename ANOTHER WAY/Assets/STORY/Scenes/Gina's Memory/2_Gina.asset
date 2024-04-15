@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2_Gina
   m_EditorClassIdentifier: 
   sentences:
-  - text: Oh, poor thing.. She was an angel
+  - text: Yes, Oh my God...Oh, poor thing.. She was an angel
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
   - text: You two were close?
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
