@@ -42,6 +42,7 @@ public class CharacterDialogue : MonoBehaviour, IPointerClickHandler, IPointerEn
                 if(controller.bottomBar != null){
                     controller.bottomBar.transform.parent.gameObject.SetActive(true);
                     controller.CanStart = true;
+                    
                 }
             }
        }
