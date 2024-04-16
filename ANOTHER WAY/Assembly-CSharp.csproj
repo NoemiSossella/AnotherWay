@@ -73,6 +73,7 @@
     <Compile Include="Assets\IMPORTASSETS\VICINI CASE\ReadMe\Scripts\ReadmeBE3.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\SCRIPT\INVENTARIO\Item.cs" />
+    <Compile Include="Assets\SCRIPT\CASA\EntrataStanza.cs" />
     <Compile Include="Assets\STORY\BottomBarController.cs" />
     <Compile Include="Assets\SCRIPT\CharacterDialogue.cs" />
     <Compile Include="Assets\SCRIPT\INVENTARIO\InventoryScript.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\SCRIPT\ItemInteractions.cs" />
     <Compile Include="Assets\STORY\Speaker.cs" />
     <Compile Include="Assets\STORY\StoryScene.cs" />
+    <Compile Include="Assets\SCRIPT\CASA\SceneManagerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
