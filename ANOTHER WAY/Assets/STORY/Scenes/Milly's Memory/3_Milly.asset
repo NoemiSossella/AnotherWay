@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0847a4a857d4e4393375434838a7b8, type: 3}
+  m_Name: 3_Milly
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Yes sadly... I was trying to get an explenation on why she had done it
+      and what did i ever done to her for her to act like that... But she always
+      brushed it of.
+    speaker: {fileID: 11400000, guid: e81b2d17f481ffd45a98cd3cf3d61007, type: 2}
+  - text: Did you get an answer for that?
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: 'Yes. She said that my boyfriend was threatening her and she had to for
+      "saving me". I''m still a bit confused by that but i will never forgive them. '
+    speaker: {fileID: 11400000, guid: e81b2d17f481ffd45a98cd3cf3d61007, type: 2}
+  - text: 'Thank you Mrs Milly, have a nice day. '
+    speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
+  - text: Your welcome Officer, you too have a nice day.
+    speaker: {fileID: 11400000, guid: e81b2d17f481ffd45a98cd3cf3d61007, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

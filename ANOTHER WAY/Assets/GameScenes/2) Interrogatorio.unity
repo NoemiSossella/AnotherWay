@@ -656,6 +656,8 @@ GameObject:
   - component: {fileID: 613029572}
   - component: {fileID: 613029574}
   - component: {fileID: 613029575}
+  - component: {fileID: 613029577}
+  - component: {fileID: 613029576}
   m_Layer: 0
   m_Name: Milly
   m_TagString: Milly
@@ -803,6 +805,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &613029576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613029571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2e4bc0df8a2c84468c8b24cdd031914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene: {fileID: 11400000, guid: 969c6d2f811c27b4f837e4469cbceddb, type: 2}
+  bottomBar: {fileID: 1345400814}
+--- !u!114 &613029577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613029571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66bdabf71e5ea3b47b680ae7a15c3ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterCanvases:
+  - {fileID: 1345400812}
+  characterButtons: []
 --- !u!1 &615238920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,7 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2995e49f19128ef4b9c01dda86b909d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 3) Casa Vittima
+  sceneToLoad: 3) CasaVittima
 --- !u!1001 &919499652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2947,6 +2978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.97045577
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516038782616755676, guid: b392ca42c2c501b49a6c697b1a0af97c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3608369407149817306, guid: b392ca42c2c501b49a6c697b1a0af97c,
         type: 3}

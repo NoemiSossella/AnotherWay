@@ -9,7 +9,7 @@ public class CasaVittimaScene : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Controlla se il player ha colliso con il trigger
+        // Controlla se il player ha colliso con l'oggetto
         if (other.CompareTag("Player"))
         {
             LoadScene();
