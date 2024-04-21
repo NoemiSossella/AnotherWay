@@ -76,7 +76,6 @@
     <Compile Include="Assets\SCRIPT\CASA\EntrataStanza.cs" />
     <Compile Include="Assets\STORY\BottomBarController.cs" />
     <Compile Include="Assets\SCRIPT\CharacterDialogue.cs" />
-    <Compile Include="Assets\SCRIPT\INVENTARIO\InventoryScript.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
     <Compile Include="Assets\SCRIPT\InteractionManager.cs" />
     <Compile Include="Assets\IMPORTASSETS\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
