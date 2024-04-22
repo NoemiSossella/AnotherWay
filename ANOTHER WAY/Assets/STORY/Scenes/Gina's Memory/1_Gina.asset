@@ -15,8 +15,8 @@ MonoBehaviour:
   sentences:
   - text: Goodmorning Officer. What can i do for you?
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
-  - text: Goodmorning Ms Gina, i'm Detective Ross from (..) May i ask you some questiions?
-      Did you know (...)?
+  - text: Goodmorning Ms Gina, i'm Detective Ross from the Police.  May i ask you
+      some questiions? Did you know Lucia Miller?
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
   background: {fileID: 21300000, guid: d5c9364955305a143b05df2337a036a3, type: 3}
   nextScene: {fileID: 11400000, guid: 07a6b20a58be8604fbab3522a879c502, type: 2}

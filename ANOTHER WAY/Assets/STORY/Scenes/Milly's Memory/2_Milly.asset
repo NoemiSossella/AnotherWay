@@ -18,8 +18,7 @@ MonoBehaviour:
   - text: 'Yes, we were good friends but SHE decided to slept with my Boyfriend and
       then blame ME for, i quote, "Not Being a good Girlfirend" to him. '
     speaker: {fileID: 11400000, guid: e81b2d17f481ffd45a98cd3cf3d61007, type: 2}
-  - text: 'I see... I also eard that you two fought a lot during that time. Is it
-      true? '
+  - text: 'I see... I also eard that you two fought a lot. Is it true? '
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
   background: {fileID: 0}
   nextScene: {fileID: 0}

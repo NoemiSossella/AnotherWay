@@ -13,17 +13,20 @@ MonoBehaviour:
   m_Name: 3_Gina
   m_EditorClassIdentifier: 
   sentences:
-  - text: What were you doing and Where were you, on the night that (...) gone missing?
+  - text: What were you doing and Where were you, on the night that Lucia Miller
+      went missing?
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
-  - text: 'I was with my Husband at the Azzure Resturant '
+  - text: I was with my Husband at the Azzure Resturant. You should find the reservetion
+      under the surname Liam D.
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
-  - text: 'Did you remember anything suspiciuts happened in that period of time? '
+  - text: 'Did you remember anything about the victim? '
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
   - text: Not that i remember... Sorry, my memory is getting old
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
   - text: It's okey M'am. I understand
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
-  - text: I remembered something... (...) and Milly fought a lot in that period
+  - text: 'I remembered something... Lucia and Milly had a lot of fight in this past
+      month. '
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
   - text: Thank you for your collaboration Ms Gina. Have a nice day
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}

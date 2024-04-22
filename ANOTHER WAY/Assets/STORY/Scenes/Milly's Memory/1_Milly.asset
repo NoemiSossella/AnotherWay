@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: 1_Milly
   m_EditorClassIdentifier: 
   sentences:
-  - text: Officer! I eard that (...) case was re-opened. How are the research going?
+  - text: Officer! I eard that Lucia Miller case was re-opened. How are the research
+      going?
     speaker: {fileID: 11400000, guid: e81b2d17f481ffd45a98cd3cf3d61007, type: 2}
   - text: Goodmorning Mrs Milly. You eard it correctly. I'm here to ask you some
-      questions about (...)
+      questions about her
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
   - text: 'What you wanna know? '
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}

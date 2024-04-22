@@ -17,7 +17,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
   - text: You two were close?
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
-  - text: Yes, she was a student of mine.
+  - text: Yes, she was a student of mine. She was a brilliant girl.
     speaker: {fileID: 11400000, guid: 404e91a439fd13c409d77166e08b7392, type: 2}
   background: {fileID: 21300000, guid: d5c9364955305a143b05df2337a036a3, type: 3}
   nextScene: {fileID: 11400000, guid: 2d80ccf2a28a70f4082a5efb92c5ee7a, type: 2}

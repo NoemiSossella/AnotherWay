@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Anything else that you remember that night?
     speaker: {fileID: 11400000, guid: 79f006c4519c06c438e9369189b5c5b5, type: 2}
   - text: 'Let me think about it... Yes! That night, the girl fought a lot with her
-      ex-boyfriend in the evening but i don''t remember what for..
+      friend in the evening but i don''t remember what for..
 
 '
     speaker: {fileID: 11400000, guid: 3a548b9df048af04bb0363b27cf5bc0f, type: 2}
