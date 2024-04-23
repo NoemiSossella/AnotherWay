@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433fb9c014894304ca604589dfe0792a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeScenaDaCaricare: 3
+  nomeScenaDaCaricare: 5
 --- !u!61 &615720137
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2098,7 +2098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433fb9c014894304ca604589dfe0792a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeScenaDaCaricare: 9
+  nomeScenaDaCaricare: 4
 --- !u!61 &1409168126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2466,7 +2466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433fb9c014894304ca604589dfe0792a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeScenaDaCaricare: 7
+  nomeScenaDaCaricare: 3
 --- !u!61 &1551275915
 BoxCollider2D:
   m_ObjectHideFlags: 0
